@@ -1,0 +1,21 @@
+.common{
+    background-color: aqua;
+    border: 2px solid blue;
+}
+.cssPsuedoElement>section:first-child:first-line, .cssPsuedoElement>section:nth-child(2):first-line{
+background-color: red;
+color: white;
+}
+.cssPsuedoElement>section:nth-child(1)::first-letter{
+    background-color: blue;
+    font-size: large;
+    font-weight: bold;
+}
+.cssPsuedoElement>section:last-child>h2::before{
+    content: hornet;
+    color: red;
+}
+.cssPsuedoElement>section:last-child>h2::after{
+    content: 2.o;
+    color: brown;
+}

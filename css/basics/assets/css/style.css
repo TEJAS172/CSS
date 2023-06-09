@@ -1,0 +1,184 @@
+.cssColor1{
+    background-color: aqua;
+}
+.cssColor2{
+    background-color: skyblue;
+}
+.cssColor3{
+    background-color:blueviolet;
+}
+.commonCssColors{
+    color: rgb(112, 11, 11);
+    
+    padding: 20px;
+    margin: 20px;
+}
+/* P7.HTML */
+.jumbotron{
+    background-color: brown;
+    border-radius: 20px;
+}
+.cssfont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.cssText{
+    text-align: justify ;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.cssText>p{
+    text-indent: 100px;
+}
+/* P8.HTML */
+.navBar{
+    background-color: grey;
+}
+.navBar>ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+}
+.navBar>ul>li{
+    display: inline-block ;
+    padding: 20px;
+}
+.navBar>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.navBar>ul>li:hover{
+    background-color: #fff;
+}
+.navBar>ul>li:hover a{
+    color: red;
+}
+.navBar>img{
+    height: 54px;
+}
+/* LIST MARKER POSITION */
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.list-marker-position>ol>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.list-marker-position>ol>li::marker{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+/* USING IMAGES AS BULLET POINT */
+.list-icon>ul>li{
+    list-style-image: url(../image/location\ \(1\).png);
+}
+/* LIST SHORTHAND PROPERTY */
+.list-shorthand>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-type: decimal;
+    list-style-position: inside;
+    list-style-image: url(../image/ice-cream.png);
+}
+/* P9.HTML */
+.empty-cell-table{
+    empty-cells: hide;
+}
+/* ODD-EVEN TABLE..! */
+.odd-even-table, .odd-even-table th, .odd-even-table td{
+    border: 2px solid black;
+    padding: 20px; 
+    border-collapse: collapse;
+    color: #fff;
+}
+/* .odd-even-table{
+    background-color: purple;
+} */
+.odd-even-table tr:nth-child(odd){
+    background-color: aqua;
+}
+.odd-even-table tr:nth-child(even){
+    background-color: blueviolet;
+}
+.odd-even-table tr:hover{
+    background-color: antiquewhite;
+}
+.odd-even-table th{
+    background-color: bisque;
+}
+
+.odd-even-table>caption{
+    color: grey;
+    font-weight: bold;
+    caption-side: bottom;
+}
+.odd-even-table td{
+    height: 200px;
+    vertical-align: text-middle;
+}
+/* P10.HTML */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: grey;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>img{
+    height: 64px;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>Ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-style: oblique;
+}
+header>nav>ul>li:hover{
+    background-color: white;
+}
+header>nav>ul>li:hover a{
+    color: red;
+}
+/* P11.HTML and P12.HTML */
+.banner1{
+    background-color: antiquewhite;
+
+}
+.bannerCommonClass{
+    color: grey;
+    padding: 30px;
+    height: 300px;
+text-align: center;
+}
+.bannerCommonClass>h1{
+    font-size: 50px;
+}
+.bannerCommonClass>h1:hover{
+    color: #000;
+}
+.banner2{
+    background-image: url(../image/student.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

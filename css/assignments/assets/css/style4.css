@@ -1,0 +1,28 @@
+.common{
+    background-color: rgba(240, 248, 255, 0.526);
+    
+}
+.cssColor{
+    background-color: rgba(224, 4, 4, 0.81);
+    padding: 20px;
+    margin: 30px 100px 30px 100px;
+    border-radius: 15px;
+    border: 5px solid rgba(166, 4, 4, 0.543);
+}
+.cssColor:hover{
+    opacity: 0.8;
+}
+/* assignment2.html */
+.cssAttribute{
+    background-image: url(../image/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px 100px 30px 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+

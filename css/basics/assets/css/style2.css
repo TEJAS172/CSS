@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: grey;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+header>nav>ul>li>a{
+    color: white;
+    font-size: large;
+    text-decoration: dotted;
+    font-style: oblique;
+    font-weight: bold;
+}
+header>nav>ul>li:hover{
+    background-color: aliceblue;
+}
+header>nav>ul>li:hover a{
+    color: red;
+}
+header>nav>img{
+    height: 54px;
+}
+.banner1{
+    background-image: url(../image/student.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannerCommonClass{
+    padding: 30px;
+    height: 300px;
+text-align: center;
+}
+.bannerCommonClass>h1{
+    color: yellow;
+    font-size: 100px;
+}
+.bannerCommonClass>h1:hover{
+    background-image: url(../image/mikky.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.bannerCommonClass>h1:hover a{
+    color: red;
+}
+.bannerCommonClass>p:hover{
+    background-color: blue;
+}
+.bannerCommonClass>p:hover a{
+    color: white;
+    padding: 20px;
+    font-size: large;
+    font-style: oblique;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-BASICS</title>
+    <style>
+      .combination{
+        background-color: grey;
+        color: white;
+        padding: 20px;
+      }
+      .combination h3{
+        color: aqua;
+      }
+      .combination p{
+        color: blueviolet;
+      }
+      .combination>div{
+        background-color: white;
+        padding: 20px;
+      }
+      .combination>div>h3{
+        color: blue;
+      }
+      .combination>div>p{
+        color: brown;
+      }
+      .combination~h5{
+        color: red;
+
+      }
+      
+     
+    </style>
+</head>
+<body>
+    <center>
+        <h1>There are 4 different combination in css..</h1>
+    </center>
+    <hr>
+    <ol>
+        <li>Desendent Selector(USING SPACE)</li>
+        <li>Child Selector(USING > SYMBOL)</li>
+        <li>Adjecent Sibling Selector(USING + SYMBOL)</li>
+        <li>General Sibling Selector(USING = SYMBOL)</li>
+    </ol>
+    <hr>
+    <h1>chils selector</h1>
+    <hr>
+    <section class="combination">
+        <h3>First H3 Tag.. (child element)</h3>
+        <p>First Paragraph.. (child element)</p>
+
+        <h3>Second H3 Tag.. (child element)</h3>
+        <p>Second paragraph.. (child element)</p>
+
+        <h3>Third H3 Tag..(child element)</h3>
+        <p>Third paragraph..(child element)</p>
+        
+        <div>
+            <h3>Fourth H3 Tag..(Grandchild element)</h3>
+            <p>Fourth paragraph(Grand child element)</p>
+        </div>
+
+        <h3>Fifth h3 tag..(Child element)</h3>
+        <p>Fifth paragraph..(child element)</p>
+    </section>
+    <h5>Teju</h5>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum et ipsum laudantium beatae optio deserunt itaque dolores unde doloremque cupiditate minima, corporis aut reiciendis molestiae veniam, culpa repellat iure! Enim!</p>
+    <h5>Rashmi</h5>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quidem animi veniam sint quisquam quod numquam eius voluptas nihil perferendis perspiciatis minima provident culpa, quaerat deserunt vel. Veritatis, eum architecto.</p>
+    <div>
+        <h5>mnm</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam blanditiis at laboriosam minima, quisquam dolorum ab vitae dignissimos aperiam voluptate in rem culpa provident explicabo nulla facilis hic consectetur quae!</p>
+    </div>
+    <h5>tks</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim et voluptatum error a iusto tempore officia! Reiciendis facere voluptas quibusdam, aliquid delectus quas quae eaque molestiae, officia deserunt unde illum.</p>
+    
+</body>
+</html>
